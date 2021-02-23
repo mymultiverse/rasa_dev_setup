@@ -15,3 +15,26 @@ conda install tensorflow
 ```
 pip3 install rasa
 ```
+
+### Hosting RASA X with ngrok
+
+Install ngrok
+```
+wget linux_download_link
+unzip ...ngrok.zip
+```
+
+[Authenticate with ngrok account](https://dashboard.ngrok.com/get-started/setup)
+```
+./ngrok authtoken key
+```
+
+Run
+```
+./ngrok http 5002
+```
+
+Export ip to RASA X
+```
+export RASA_X_HOSTNAME= ip from ngrok 
+```
