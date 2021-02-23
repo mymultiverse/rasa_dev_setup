@@ -21,6 +21,10 @@ Install RASA X
 ```
 pip3 install rasa-x --extra-index-url https://pypi.rasa.com/simple
 ```
+If it takes too long then
+```
+pip install --upgrade pip==20.2
+```
 
 Install ngrok
 ```
