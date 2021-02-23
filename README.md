@@ -17,6 +17,10 @@ pip3 install rasa
 ```
 
 ### Hosting RASA X with ngrok
+Install RASA X
+```
+pip3 install rasa-x --extra-index-url https://pypi.rasa.com/simple
+```
 
 Install ngrok
 ```
