@@ -38,3 +38,8 @@ Export ip to RASA X
 ```
 export RASA_X_HOSTNAME= ip from ngrok 
 ```
+
+Run RASA X
+```
+rasa x
+```
