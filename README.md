@@ -44,7 +44,9 @@ Run
 
 Export ip to RASA X
 ```
-export RASA_X_HOSTNAME= ip from ngrok 
+export RASA_X_HOSTNAME= ip from ngrok
+export RASA_X_HOST=ip from ngrok
+export RASA_X_PASSWORD=any
 ```
 
 Run RASA X
